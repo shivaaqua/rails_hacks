@@ -1,10 +1,9 @@
 require "rails_hacks/version"
 
 module RailsHacks
-  # Your code goes here...
-  require 'error_to_xml'
-  require 'form_helper'
-  require 'request_hacks'
-  require 'merge_dom_class'
-  require 'expose_to_api'
+  require 'rails_hacks/error_to_xml'
+  require 'rails_hacks/form_helper'
+  require 'rails_hacks/request_hacks'
+  require 'rails_hacks/merge_dom_class'
+  require 'rails_hacks/expose_to_api'
 end
